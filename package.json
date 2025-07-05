@@ -1,0 +1,25 @@
+{
+  "name": "comet-killer",
+  "version": "1.0.0",
+  "description": "CLI that kills any process on a local port and then runs your command",
+  "type": "module",
+  "bin": {
+    "auto-port-killer": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cometerm/comet-killer.git"
+  },
+  "keywords": ["cli", "dev", "port", "killer", "auto"],
+  "author": "dinesh dinesh.1124k@gmail.com",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^10.0.0",
+    "execa": "^7.0.0",
+    "find-process": "^1.4.6"
+  }
+}
